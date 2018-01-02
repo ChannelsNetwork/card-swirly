@@ -43,16 +43,23 @@
   <template>
     <style>
       :host {
-        width: 100%;
-        height: 100%;
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        font-size: 14px;
+        color: #292929;
+        -webkit-font-smoothing: antialiased;
       }
 
       #container {
-        position: absolute;
+        position: fixed;
+        top: 120px;
         left: 0;
         right: 0;
-        top: 0;
         bottom: 0;
+        overflow: hidden;
+        background-color: white;
       }
     </style>
     <div id="container">
